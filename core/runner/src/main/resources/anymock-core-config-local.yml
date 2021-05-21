@@ -1,0 +1,12 @@
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/anymock_opensource?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    type: com.zaxxer.hikari.HikariDataSource
+    redis:
+      host: 127.0.0.1
+      port: 6379

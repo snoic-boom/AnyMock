@@ -52,10 +52,10 @@ CREATE TABLE `anymock_http_interface`  (
 -- ----------------------------
 -- Table structure for anymock_interface_branch
 -- ----------------------------
-DROP TABLE IF EXISTS `anymock_interface_branch`;
-CREATE TABLE `anymock_interface_branch`  (
+DROP TABLE IF EXISTS `anymock_http_interface_branch`;
+CREATE TABLE `anymock_http_interface_branch`  (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `interface_id` bigint(20) NOT NULL,
+  `http_interface_id` bigint(20) NOT NULL,
   `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `sync_script` mediumtext CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `async_script` mediumtext CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,

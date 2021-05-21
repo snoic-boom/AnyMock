@@ -1,17 +1,3 @@
-spring:
-  http:
-    encoding:
-      charset: UTF-8
-      force: true
-  datasource:
-    url: jdbc:mysql://localhost:3306/anymock_opensource?serverTimezone=UTC
-    username: root
-    password: toor
-    type: com.zaxxer.hikari.HikariDataSource
-  redis:
-    host: localhost
-    port: 6379
-
 server:
   port: 8330
 
